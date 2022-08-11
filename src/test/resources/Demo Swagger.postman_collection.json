@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "2712d47d-3014-472c-9110-db57db842b0d",
+		"name": "Demo Swagger",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1415620"
+	},
+	"item": [
+		{
+			"name": "API Consult",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/consult",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"consult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Admin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commun",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/commun",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"commun"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Utilisateur Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Utilisateur Consult",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Get Swagger JSON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v3/api-docs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v3",
+						"api-docs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
